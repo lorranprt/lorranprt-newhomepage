@@ -40,7 +40,7 @@ h1, h2, h3 {
 }
 
 .btn {
-  background-color: #00f0c8;
+  background-color: #5a009e;
   color: #000;
   padding: 0.6rem 1rem;
   text-decoration: none;
@@ -84,4 +84,21 @@ footer {
   margin-top: 0.5rem;
   text-align: center;
   color: #fff;
+}
+
+.work .btn {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 0;
+  font-weight: bold;
+}
+
+.tagline {
+  background-color: #ffffff41;
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
 }

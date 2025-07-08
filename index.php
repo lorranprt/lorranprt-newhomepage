@@ -11,9 +11,9 @@
   <section class="work">
     <h3>Work</h3>
     <p>
-      I’m a full-stack developer passionate about building digital solutions. I have hands-on experience across the entire development lifecycle — from planning to deployment. Currently, I work as a PHP web developer at the Legislative Assembly of the State of Rio de Janeiro (ALERJ).
+     Lorran is a freelance and full-stack developer based in Rio de Janeiro, Brazil, passionate about crafting digital solutions and services that align with his own aspirations. With hands-on experience across the entire development lifecycle — from planning and design to deployment — he excels at solving real-world problems through code. Currently, he works as a PHP web developer at the Legislative Assembly of the State of Rio de Janeiro (ALERJ). When he's not online, Lorran enjoys leisure activities and occasionally engages in live streaming.
     </p>
-    <a href="#" class="btn">Meu portfólio</a>
+    <a href="#" class="btn">Portfolio</a>
   </section>
 
   <section class="bio">
@@ -34,9 +34,9 @@
   <section class="web">
     <h3>On the web</h3>
     <ul>
-      <li><a href="#">@github</a></li>
+      <li><a href="https://github.com/lorranprt">@lorranprt</a></li> <!-- Adicionar icones de seus respectivos websites -->
       <li><a href="#">@linkedin</a></li>
-      <li><a href="#">@instagram</a></li>
+      <li><a href="#">@instagram</a></li> 
     </ul>
   </section>
 
@@ -57,8 +57,7 @@
       </a>
     </div>
 
-    <!-- Adicione mais projetos assim: -->
-    <!--
+    <!-- Adicione mais projetos assim:
     <div class="project">
       <a href="link_para_projeto.php">
         <img src="assets/images/nome_arquivo.jpg" alt="Descrição">
@@ -68,7 +67,6 @@
     -->
   </div>
 </section>
-
 </main>
 
 <?php include 'includes/footer.php'; ?>

@@ -9,11 +9,11 @@
 <body>
   <header>
     <nav class="navbar">
-      <div class="logo">Lorran Porto</div>
+      <div class="logo">Lorran</div>
       <ul class="nav-links">
-        <li><a href="#">Trabalhos</a></li>
+        <li><a href="#">Works</a></li>
         <li><a href="#">Posts</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
