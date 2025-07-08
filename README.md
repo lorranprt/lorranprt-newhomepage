@@ -1,3 +1,4 @@
+```
 portfolio/
 ├── index.php
 ├── includes/
@@ -6,7 +7,7 @@ portfolio/
 ├── assets/
 │   ├── css/style.css
 │   └── images/profile.jpg
-
+```
 https://www.craftz.dog/
 
 pra startar o php tem que:
