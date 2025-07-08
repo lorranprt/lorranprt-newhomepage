@@ -10,10 +10,9 @@ portfolio/
 ```
 https://www.craftz.dog/
 
-pra startar o php tem que:
-live server >
-terminal: php -S localhost:<código>
 
+settings.json <vscode>
+```
 {
     "explorer.confirmDelete": false,
     "liveServer.settings.donotShowInfoMsg": true,
@@ -21,13 +20,17 @@ terminal: php -S localhost:<código>
     "workbench.iconTheme": "symbols",
     "editor.fontFamily": "JetBrains Mono"
 }
-
-
+```
+Adições
+```
 Download JetBrains Mono
 extensions: Min Dark
 	    symbols
+```
 
 
-cores:
+Cores:
+```
 #5a009e - roxo
 #ffffff41 - cinza
+```
