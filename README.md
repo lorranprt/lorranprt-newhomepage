@@ -9,7 +9,8 @@ portfolio/
 │   └── images/profile.jpg
 ```
 https://www.craftz.dog/
-
+- npm i bootstrap@5.3.7
+- npm i bootstrap-icons
 
 settings.json <vscode>
 ```
