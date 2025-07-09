@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <link rel="stylesheet" href="assets/css/style.css">
-
+<meta name="viewport">
 <main class="container">
   <!-- INTRO -->
 <section class="intro fade-in">
@@ -19,35 +19,49 @@
   <section class="work fade-in">
     <h3>Work</h3>
     <p>
-Lorran is a freelance full-stack developer based in Rio de Janeiro, Brazil, passionate about building digital solutions that reflect his personal goals. With hands - on experience throughout the entire development process — from planning to deployment — he currently works as a PHP developer at the Legislative Assembly of the State of Rio de Janeiro (ALERJ). Outside of work, he enjoys leisure activities and occasionally streams live.
+Lorran is a full-stack developer based in Rio de Janeiro, Brazil, passionate about building digital solutions that reflect his personal goals. With hands - on experience throughout the entire development process — from planning to deployment — he currently works as a PHP developer at the Legislative Assembly of the State of Rio de Janeiro (ALERJ). Outside of work, he enjoys leisure activities and occasionally streams live.
     </p>
     <a href="pages/works.php" class="btn">Portfolio</a>
   </section>
 
   <!-- BIO -->
-  <section class="bio fade-in">
-    <h3>Bio</h3>
-    <ul class="bio-list">
-      <li><span class="year">2004</span> Born in Rio de Janeiro, Brazil.</li>
-      <li><span class="year">2016</span> Started studying programming.</li>
-      <li><span class="year">2018</span> Began working on freelance projects.</li>
-      <li><span class="year">2025 - Present</span> PHP developer at ALERJ.</li>
-    </ul>
-  </section>
+<section class="bio fade-in">
+  <h3>Bio</h3>
+<ul class="bio-list">
+  <li>
+    <span class="year">2004</span>
+    <span class="job-title">Born in Rio de Janeiro, Brazil.</span>
+  </li>
+  <li>
+    <span class="year">2016</span>
+    <span class="job-title">Started studying programming.</span>
+  </li>
+  <li>
+    <span class="year">2018</span>
+    <span class="job-title">Began working on freelance projects.</span>
+  </li>
+  <li>
+    <span class="year">2025 - Present</span>
+    <span class="job-title">PHP Developer at <a href="https://www.alerj.rj.gov.br/">ALERJ.</a></span>
+  </li>
+</ul>
+</section>
+
+
 
   <!-- LIKES -->
   <section class="likes fade-in">
     <h3>I ♥</h3>
-    <p>Art, Music, Games, Photography, Video Editing</p>
+    <p>Art, Music, Games, Video Editing</p>
   </section>
 
   <!-- SOCIAL -->
   <section class="social-links fade-in">
     <h3>On the web</h3>
     <ul class="social-list">
-      <li><a href="#"><i class="bi bi-github"></i> GitHub</a></li>
-      <li><a href="#"><i class="bi bi-twitter"></i> Twitter</a></li>
-      <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+      <li><a href="https://github.com/lorranprt"><i class="bi bi-github"></i> GitHub</a></li>
+      <li><a href="https://x.com/lorranprt"><i class="bi bi-twitter"></i> Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/lorran-porto-8788621a4/"><i class="bi bi-instagram"></i> Linkedin</a></li>
     </ul>
   </section>
 </main>

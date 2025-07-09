@@ -1,10 +1,30 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css');
+@import '~bootstrap-icons/font/bootstrap-icons';
+
 :root {
-  --bg-dark: #121212;
+  /* Paleta escura moderna */
+  --bg-dark: #121212;                 
+  --bg-dark-alt: #1c1b1f;            
+
+  /* Cartões e elementos */
+  --card-bg: #222;
+
+  /* Tipografia e cores */
   --text-white: #fff;
+  --text-white-alt: #ffffff;       
   --text-gray: #aaa;
+  --text-muted: #aaa;
+
+  /* Destaque / Acento */
   --accent: #5a009e;
+
+  /* Bordas */
   --radius: 6px;
+  --radius-lg: 10px;
+
+  /* Container e fontes */
   --container-width: 380px;
+  --font-base: 'Segoe UI', sans-serif;
 }
 
 body {
@@ -156,22 +176,40 @@ a {
 .bio-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .bio-list li {
-  margin-bottom: 0.6rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.75rem;
   font-size: 0.95rem;
-  padding-left: 6rem;
-  position: relative;
+  margin-bottom: 0.6rem;
 }
 
-.year {
+.bio-list .year {
+  white-space: nowrap;
   font-weight: bold;
   color: var(--text-white);
-  display: inline-block;
-  width: 5.5rem;
-  position: absolute;
-  left: 0;
+  flex-shrink: 0;
+  width: 8rem;
+}
+
+.bio-list .job-title {
+  color: var(--text-white);
+  white-space: normal;
+  flex: 1;
+}
+
+.bio-list .job-title a {
+  color: var(--accent);
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.bio-list .job-title a:hover {
+  color: var(--text-white);
 }
 
 /* SOCIAL */
@@ -230,10 +268,12 @@ a {
   }
 
   .bio-list li {
-    padding-left: 5rem;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .year {
-    width: 4.5rem;
+  .bio-list .year {
+    width: auto;
+    margin-bottom: 0.2rem;
   }
 }
