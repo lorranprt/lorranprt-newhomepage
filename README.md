@@ -1,38 +1,40 @@
+# Lorran's homepage.
+
+## Project Structure
 ```
-portfolio/
-├── index.php
-├── includes/
-│   ├── header.php
-│   └── footer.php
-├── assets/
-│   ├── css/style.css
-│   └── images/profile.jpg
+$PROJECT_ROOT/
+├── public/
+│   ├── index.php
+│   ├── assets/
+│       ├── css/
+│       └── images/
+│   
+├── src/
+│   ├── Includes/
+│   │   ├── header.php
+│   │   └── footer.php
+│   ├── Pages/
+│   │   ├── contact.php
+│   │   ├── posts.php
+│   │   └── works.php
+│   └── Core/
+│
+├── vendor/
+│
+├── .vscode/
+├── .gitignore
+├── composer.json
+├── composer.lock
+├── package.json
+├── package-lock.json
+└── README.md
+
 ```
-https://www.craftz.dog/
+
+## Stack
 - npm i bootstrap@5.3.7
 - npm i bootstrap-icons
 - composer require twbs/bootstrap-icons
-
-settings.json <vscode>
-```
-{
-    "explorer.confirmDelete": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Min Dark",
-    "workbench.iconTheme": "symbols",
-    "editor.fontFamily": "JetBrains Mono"
-}
-```
-Adições
-```
-Download JetBrains Mono
-extensions: Min Dark
-	    symbols
-```
-
-
-Cores:
-```
-#5a009e - roxo
-#ffffff41 - cinza
-```
+- [PHP](https://www.php.net/) - A popular general-purpose scripting language that is especially suited to web development.
+Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+- [Bootstrap](https://icons.getbootstrap.com/) - Free, high quality, open source icon library with over 2,000 icons.
