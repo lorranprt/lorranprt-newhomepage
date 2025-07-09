@@ -52,7 +52,7 @@ Lorran is a freelance full-stack developer based in Rio de Janeiro, Brazil, pass
   </section>
 </main>
 
-<?php include 'includes\footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
 <script>
 // Mobile Menu Toggle
