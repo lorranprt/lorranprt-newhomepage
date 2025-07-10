@@ -50,7 +50,7 @@ body {
   width: 240px;
 }
 
-.project-thumb {
+.post-thumb {
   width: 180px; /* imagem menor */
   height: auto;
   border-radius: var(--radius-lg);
@@ -111,7 +111,7 @@ body {
     width: 100%;
   }
 
-  .project-thumb {
+  .post-thumb {
     width: 100%;
     max-width: 150px;
     margin: 0 auto 1rem;
