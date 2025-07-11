@@ -11,7 +11,7 @@
     <nav class="navbar">
       <div class="logo"><strong><a id="Lorran" href="../index.php"><i class="bi bi-balloon-fill"></i>Lorran</a></strong></div>
       <ul class="nav-links">
-        <li><a href="pages/works.php">Works</a></li>
+        <li><a href="/pages/works.php">Works</a></li>
         <li><a href="/pages/posts.php">Posts</a></li>
         <li><a href="https://github.com/lorranprt/lorranprt-newhomepage.git"><i class="bi bi-github"></i>Source</a></li>
       </ul>
