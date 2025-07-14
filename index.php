@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
+
 <link rel="stylesheet" href="assets/css/style.css">
 <meta name="viewport">
 <main class="container">
@@ -37,7 +38,7 @@ Lorran is a full-stack developer based in Rio de Janeiro, Brazil, passionate abo
     <span class="job-title">Started studying programming.</span>
   </li>
   <li>
-    <span class="year">2018</span>
+    <span class="year">2020</span>
     <span class="job-title">Began working on freelance projects.</span>
   </li>
   <li>
