@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'lorranprt/mynewhomepage',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3ec161ff437255498afaccdc300e691096ba15b4',
+        'reference' => 'd2624024723c15666fbfe5fa1166e69df22436c8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'lorranprt/mynewhomepage' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3ec161ff437255498afaccdc300e691096ba15b4',
+            'reference' => 'd2624024723c15666fbfe5fa1166e69df22436c8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1,4 +1,7 @@
 {
+  "name": "lorranprt/mynewhomepage",
+  "description": "A homepage made by Lorran",
+  "license": "proprietary",
     "require": {
         "twbs/bootstrap-icons": "^1.13"
     }
