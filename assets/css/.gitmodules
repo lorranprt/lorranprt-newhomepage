@@ -1,0 +1,3 @@
+[submodule "vendor/twbs/bootstrap-icons"]
+    path = vendor/twbs/bootstrap-icons
+    url = <URL-do-repositório>
