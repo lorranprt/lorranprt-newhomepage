@@ -34,3 +34,4 @@ $PROJECT_ROOT/
 ## Stack
 - [PHP](https://www.php.net/) - A popular general-purpose scripting language that is especially suited to web development.
 - [Bootstrap](https://icons.getbootstrap.com/) - Free, high quality, open source icon library with over 2,000 icons.
+
